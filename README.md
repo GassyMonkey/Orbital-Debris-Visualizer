@@ -26,7 +26,7 @@ I'm planning to study Aerospace Engineering with a focus on this problem. Buildi
 pip install requests numpy plotly dash skyfield
 
 You'll need a free account at space-track.org. Add your credentials to the login section at the top of the script.
-python Orbital_Debris_Visualizer.py
+Then run the script: python Orbital_Debris_Visualizer.py
 
 Opens automatically at http://127.0.0.1:8050.
 
