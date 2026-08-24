@@ -12,6 +12,7 @@ The tool pulls live tracking data from Space-Track.org (maintained by the US Spa
 - Show/hide object types to isolate what you're looking at
   
 **Why I built this**
+
 I've learned that within my life, the Milky Way may become effectively invisible from Earth's surface, not just because of ground-based light pollution, but because of the growing shell of objects in low Earth orbit reflecting sunlight. Thousands of satellites faster than the regulatory frameworks governing them can keep up.
 
 I'm planning to study Aerospace Engineering with a focus on this problem. Building this was part to teach myself the underlying orbital mechanics, learning TLE format, SGP4 propagation, what inclination and eccentricity actually mean visually. The other part was to have something concrete to point to when I say the problem is real.
@@ -29,5 +30,6 @@ I'm planning to study Aerospace Engineering with a focus on this problem. Buildi
 4. Opens automatically at http://127.0.0.1:8050.
 
 **Notes**
+
 This is a visualization tool and does not include an operational collision prediction system. The orbital paths and positions are calculated using SGP4 propagation from publicly available TLE data, which is accurate to within a few kilometers for most objects. For actual conjunction analysis, organizations use higher-fidelity models with more frequent data updates. The density heatmap reflects relative congestion by altitude band, not a formal risk assessment.
 Data is fetched at launch and reflects orbital positions at that moment. Restart the script to refresh.
