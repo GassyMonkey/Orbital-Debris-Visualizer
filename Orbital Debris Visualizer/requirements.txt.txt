@@ -1,0 +1,7 @@
+requests
+numpy
+plotly
+dash
+skyfield
+geopandas
+shapely
