@@ -24,11 +24,14 @@ I'm planning to study Aerospace Engineering with a focus on this problem. Buildi
 - Space-Track.org API for live TLE data (free account required)
   
 **Setup**
-1. pip install requests numpy plotly dash skyfield
-2. You'll need a free account at space-track.org.
-3. Then run the script: python Orbital_Debris_Visualizer.py
-4. The script will prompt you for your credentials on startup, log in with your account.
-5. Opens automatically at http://127.0.0.1:8050.
+1. Download the Orbital Debris Visualizer folder
+2. Use terminal and paste in (or however you make it work): 
+   Windows: py -m pip install -r requirements.txt
+   Mac/Linux: pip3 install -r requirements.txt
+4. You'll need a free account at space-track.org.
+5. Then run the script: python Orbital_Debris_Visualizer.py
+6. The script will prompt you for your credentials on startup, log in with your account.
+7. Opens automatically at http://127.0.0.1:8050.
 
 **Notes**
 
