@@ -28,7 +28,7 @@ I'm planning to study Aerospace Engineering with a focus on this problem. Buildi
 2. Use terminal and paste in (or however you make it work): 
    - Windows: py -m pip install -r requirements.txt
    - Mac/Linux: pip3 install -r requirements.txt
-4. You'll also need a free account at space-track.org.
+4. You'll also need a free account at [space-track.org](https://www.space-track.org/)
 5. Then run the script: python Orbital_Debris_Visualizer.py
 6. The script will prompt you for your credentials on startup, log in with your account.
 7. Wait for the data to load. The visualizer opens automatically at http://127.0.0.1:8050.
