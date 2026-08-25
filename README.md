@@ -29,7 +29,7 @@ I'm planning to study Aerospace Engineering with a focus on this problem. Buildi
    - Windows: py -m pip install requests numpy plotly dash skyfield geopandas shapely
    - Mac/Linux: pip3 install requests numpy plotly dash skyfield geopandas shapely
 4. You'll also need a free account at [space-track.org](https://www.space-track.org/)
-5. Then run the script: python Orbital_Debris_Visualizer.py
+5. Then run the script
 6. The script will prompt you for your credentials on startup, log in with your account.
 7. Wait for the data to load. The visualizer opens automatically at http://127.0.0.1:8050.
 
